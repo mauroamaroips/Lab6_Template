@@ -46,6 +46,7 @@ int main() {
     vector3dDestroy(&v3);
     vector3dDestroy(&multiplyVec);
     vector3dDestroy(&sumVectors);
+    vector3dDestroy(&normalizeVector);
 
     return EXIT_SUCCESS;
 }
