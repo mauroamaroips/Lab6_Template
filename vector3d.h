@@ -99,7 +99,7 @@ PtVector3d vector3dAdd(PtVector3d vec1, PtVector3d vec2);
  * @return VECTOR3_OK if successful and value in *magnitude
  * @return VECTOR3_NULL if vec is NULL and *magnitude unmodified
  */
-int vector3dMagnitude(PtVector3d vec, double *magnitude);
+double vector3dMagnitude(PtVector3d vec, double *magnitude);
 
 /**
  * @brief Normalizes a vector.
